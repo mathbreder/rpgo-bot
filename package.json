@@ -10,7 +10,7 @@
 
   "scripts": {
 
-    "start": "node ."
+    "start": "npm start"
 
   },
 
