@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
+  } else if (msg.content === "roll d20") {
+      msg.reply(Math.random() * Math.sin(Math.random()) * 20);
   }
 });
 
